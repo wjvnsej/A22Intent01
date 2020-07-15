@@ -1,0 +1,153 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:rowCount="10"
+    android:columnCount="2">
+    <TextView
+        android:id="@+id/tv1"
+        android:textSize="15sp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"
+        android:gravity="left|center_horizontal"/>
+    <RatingBar
+        android:id="@+id/rb1"
+        android:numStars="5"
+        android:stepSize="1"
+        android:paddingTop="5dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"
+        android:isIndicator="true"/>
+    <!--
+        isIndicator="true" 로 설정하면 레이팅바를 터치할 수 없다.
+        numStars = 별의 갯수 지정
+        stepSize = 한번 터치할 때 마다 입력될 값의 범위를 설정
+    -->
+
+    <TextView
+        android:id="@+id/tv2"
+        android:textSize="15sp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"
+        android:gravity="left|center_horizontal"/>
+
+    <RatingBar
+        android:id="@+id/rb2"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"
+        android:numStars="5"
+        android:paddingTop="5dp"
+        android:stepSize="1.5" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:textSize="15sp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"
+        android:gravity="left|center_horizontal"/>
+    <RatingBar
+        android:id="@+id/rb3"
+        android:numStars="5"
+        android:stepSize="1"
+        android:paddingTop="5dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:textSize="15sp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"
+        android:gravity="left|center_horizontal"/>
+    <RatingBar
+        android:id="@+id/rb4"
+        android:numStars="5"
+        android:stepSize="1"
+        android:paddingTop="5dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:textSize="15sp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"
+        android:gravity="left|center_horizontal"/>
+    <RatingBar
+        android:id="@+id/rb5"
+        android:numStars="5"
+        android:stepSize="1"
+        android:paddingTop="5dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"/>
+
+    <TextView
+        android:id="@+id/tv6"
+        android:textSize="15sp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"
+        android:gravity="left|center_horizontal"/>
+    <RatingBar
+        android:id="@+id/rb6"
+        android:numStars="5"
+        android:stepSize="1"
+        android:paddingTop="5dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"/>
+
+    <TextView
+        android:id="@+id/tv7"
+        android:textSize="15sp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"
+        android:gravity="left|center_horizontal"/>
+    <RatingBar
+        android:id="@+id/rb7"
+        android:numStars="5"
+        android:stepSize="1"
+        android:paddingTop="5dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"/>
+
+    <TextView
+        android:id="@+id/tv8"
+        android:textSize="15sp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"
+        android:gravity="left|center_horizontal"/>
+    <RatingBar
+        android:id="@+id/rb8"
+        android:numStars="5"
+        android:stepSize="1"
+        android:paddingTop="5dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"/>
+
+    <TextView
+        android:id="@+id/tv9"
+        android:textSize="15sp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"
+        android:gravity="left|center_horizontal"/>
+    <RatingBar
+        android:id="@+id/rb9"
+        android:numStars="5"
+        android:stepSize="1"
+        android:paddingTop="5dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"/>
+    <Button
+        android:id="@+id/btn_main"
+        android:text="메인으로 돌아가기"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"/>
+</GridLayout>
